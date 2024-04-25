@@ -1,0 +1,35 @@
+<style>
+			.container {
+				height: 50vh; /* Hauteur de 50vh */
+				width: 50vw; /* Largeur de 50vw */
+				display: flex;
+				flex-direction: column;
+				justify-content: center;
+				align-items: center;
+				background-color: rgba(0, 0, 0, 0.9); /* Fond noir avec opacité */
+				padding: 20px;
+				border-radius: 10px;
+				box-shadow: 0 0 20px rgba(255, 255, 255, 0.1); /* Ombre blanche transparente */
+				overflow-y: auto;
+			}
+
+			h1,
+			p {
+				color: #fff; /* Texte blanc */
+			}
+
+			.play-button {
+				background-color: #4CAF50;
+				color: white;
+				padding: 15px 30px;
+				border: none;
+				border-radius: 5px;
+				font-size: 20px;
+				cursor: pointer;
+				transition: background-color 0.3s;
+			}
+
+			.play-button:hover {
+				background-color: #45a049;
+			}
+		</style>
