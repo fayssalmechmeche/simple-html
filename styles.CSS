@@ -1,4 +1,4 @@
-<style>
+
 			.container {
 				height: 50vh; /* Hauteur de 50vh */
 				width: 50vw; /* Largeur de 50vw */
@@ -32,4 +32,3 @@
 			.play-button:hover {
 				background-color: #45a049;
 			}
-		</style>
